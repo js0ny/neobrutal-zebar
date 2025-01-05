@@ -58,7 +58,7 @@ export default {
         reverseBoxShadowY: "-var(--shadow-size-button)"
       },
       fontFamily: {
-        sans: ["SF Pro Display", ...defaultTheme.fontFamily.sans]
+        sans: ["LXGW Wenkai", "JetBrainsMono Nerd Font", "SF Pro Display", ...defaultTheme.fontFamily.sans]
       },
       fontWeight: {
         base: "var(--font-weight)"

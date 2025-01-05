@@ -17,6 +17,7 @@
   import RightGroup from "../components/RightGroup.svelte";
   import Workspaces from "../components/Workspaces.svelte";
 
+  let audio = null;
   let battery = $state<BatteryOutput | null>();
   let cpu = $state<CpuOutput | null>();
   let date = $state<DateOutput | null>();
@@ -29,7 +30,7 @@
     const providers = zebar.createProviderGroup({
       battery: { type: "battery" },
       cpu: { type: "cpu" },
-      date: { type: "date", formatting: "HH:mm" },
+      date: { type: "date", formatting: 'HH:mm:ss MMM月d日 EEE', locale: 'zh-CN' },
       glazewm: { type: "glazewm" },
       memory: { type: "memory" },
       network: { type: "network" },
@@ -52,17 +53,17 @@
   class="grid grid-cols-3 items-center h-bar my-zby mx-zbx text-zb-text text-zb-size font-base"
 >
   <Group class="justify-self-start">
-    <LeftGroup battery={battery!} cpu={cpu!} memory={memory!} />
-  </Group>
-  <Group class="justify-self-center">
     <Workspaces glazewm={glazewm!} />
   </Group>
-  <Group class="justify-self-end">
+  <Group class="justify-self-center">
     <RightGroup
       date={date!}
       glazewm={glazewm!}
       network={network!}
       weather={weather!}
     />
+  </Group>
+  <Group class="justify-self-end">
+    <LeftGroup battery={battery!} cpu={cpu!} memory={memory!} />
   </Group>
 </div>

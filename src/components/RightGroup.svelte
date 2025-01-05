@@ -13,7 +13,7 @@
 </script>
 
 <div class="flex flex-row gap-3 items-center">
-  <NowPlaying glazewm={glazewm}/>
+  <!-- <NowPlaying glazewm={glazewm}/>
   <div class="flex flex-row items-center gap-1">
     {#if network?.defaultInterface?.type === "ethernet"}
       <i class="ti ti-network"></i>
@@ -31,7 +31,9 @@
     {:else}
       <i class="ti ti-wifi-off"></i>
     {/if}
-  </div>
+  </div> -->
+  {date?.formatted}
+  <i class="ti ti-point-filled"></i>
   {#if weather}
     <div>
       {#if weather.status === "clear_day"}
@@ -62,6 +64,4 @@
       {Math.round(weather.celsiusTemp)}°
     </div>
   {/if}
-  <i class="ti ti-point-filled"></i>
-  {date?.formatted}
 </div>
