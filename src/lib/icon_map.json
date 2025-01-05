@@ -1,7 +1,7 @@
 [
   {
     "iconName": "ti-terminal-2",
-    "appNames": ["alacritty", "wezterm", "wezterm-gui", "windowsterminal"]
+    "appNames": ["alacritty", "wezterm", "wezterm-gui", "windowsterminal", "wt"]
   },
   {
     "iconName": "ti-brand-vscode",
@@ -49,7 +49,7 @@
   },
   {
     "iconName": "ti-spy",
-    "appNames": ["azure vpn client"]
+    "appNames": ["azure vpn client", "AutoHotkey Window Spy"]
   },
   {
     "iconName": "ti-screenshot",
@@ -61,7 +61,7 @@
   },
   {
     "iconName": "ti-folder",
-    "appNames": ["explorer"]
+    "appNames": ["explorer", "dopus"]
   },
   {
     "iconName": "ti-photo",
@@ -94,5 +94,37 @@
   {
     "iconName": "ti-brand-steam",
     "appNames": ["steam"]
+  },
+  {
+    "iconName": "ti-brand-docker",
+    "appNames": ["Docker Desktop"]
+  },
+  {
+    "iconName": "ti-brand-kotlin",
+    "appNames": ["clion64", "idea64", "pycharm64", "webstorm64"]
+  },
+  {
+    "iconName": "ti-brand-telegram",
+    "appNames": ["telegram", "unigram"]
+  },
+  {
+    "iconName": "ti-brand-wechat",
+    "appNames": ["WeChat"]
+  },
+  {
+    "iconName": "ti-brand-qq",
+    "appNames": ["QQ"]
+  },
+  {
+    "iconName": "ti-brand-xbox",
+    "appNames": ["Xbox"]
+  },
+  {
+    "iconName": "ti-check",
+    "appNames": ["Microsoft To Do"]
+  },
+  {
+    "iconName": "ti-music",
+    "appNames": ["Media Player", "AppleMusic", "Cider"]
   }
 ]
