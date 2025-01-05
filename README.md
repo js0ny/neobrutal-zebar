@@ -3,6 +3,10 @@
 An Zebar configuration for Zebar V2 build in Svelte with Tailwind. If you are
 still using V1 of Zebar the old config is available in the [V1 branch](https://github.com/adriankarlen/neobrutal-zebar/tree/v1).
 
+## Forked
+
+This is a fork of the original [neobrutal-zebar](https://github.com/adriankarlen/neobrutal-zebar), with some minor changes to the configuration.
+
 ## ✨ Features
 
 - Process icons for current workspace, with current focus indicator.
@@ -69,7 +73,7 @@ In `config.css` there exists a lot of configuration available to tweak.
 ## 🎨 Themes
 
 Neobrutal currently ships with 4 different themes, Rosé Pine, Catppuccin, Nord
-and Material. Below follows some examples.
+and Material.
 
 ### 🌷Rosé Pine (default)
 
