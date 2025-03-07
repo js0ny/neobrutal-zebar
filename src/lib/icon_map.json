@@ -5,7 +5,7 @@
   },
   {
     "iconName": "ti-brand-vscode",
-    "appNames": ["code"]
+    "appNames": ["code", "Cursor"]
   },
   {
     "iconName": "ti-brand-visual-studio",
@@ -17,7 +17,7 @@
   },
   {
     "iconName": "ti-mail",
-    "appNames": ["airmail", "olk"]
+    "appNames": ["airmail", "olk", "thunderbird"]
   },
   {
     "iconName": "ti-brand-arc",
@@ -34,6 +34,10 @@
   {
     "iconName": "ti-circle-letter-z",
     "appNames": ["zen"]
+  },
+  {
+    "iconName": "ti-brand-vivaldi",
+    "appNames": ["vivaldi"]
   },
   {
     "iconName": "ti-brand-edge",
@@ -154,5 +158,13 @@
   {
     "iconName": "ti-brand-android",
     "appNames": ["MuMuPlayer"]
+  },
+  {
+    "iconName": "ti-brand-loom",
+    "appNames": ["obs64"]
+  },
+  {
+    "iconName": "hexagon-letter-e",
+    "appNames": ["emacs"]
   }
 ]

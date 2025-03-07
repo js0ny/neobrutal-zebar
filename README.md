@@ -14,11 +14,6 @@ This is a fork of the original [neobrutal-zebar](https://github.com/adriankarlen
 - Spotify, currently playing song.
 - Configuration using CSS-variables.
 
-> [!IMPORTANT]
->
-> This configuration is it's early development. Contributions are
-> welcome, especially to the process icon map, as I only mapped the ones I use
-> that could not be automapped.
 
 ## 🖼️ Showcase
 
@@ -46,6 +41,15 @@ inside your zebar config directory. Adjust the `config.css` as needed.
 > `bar.zebar.json` to get a correct height (default is `60px`).
 
 ### Advanced installation (building from source)
+
+> [!NOTE]
+> If you have `just` and `pwsh` installed, you can use the `justfile` to build
+>> If `pwsh` is not installed, just change the `justfile` to use `powershell` instead.
+
+```powershell
+just init
+just build
+```
 
 #### Prerequisites
 
